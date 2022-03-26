@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+			<title>
+				Login/Signup Page
+			</title>
+			<meta charset="utf-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<meta name="description" content="Car-Pool System">
+    		<link rel="stylesheet" type="text/css" href="page2.css" media="screen"/>
+    </head>
+    <body>
+
+			<div class="d1-menu" >
+				<h1>
+					Share-Ride
+				</h1>
+			</div>
+			<div class="container">
+
+			<div class="CA">
+				<p class="p-ca">CREATE ACCOUNT</p>
+					<div class="label-CA">
+						<label>NAME</label>
+						<input type="text" id="Name" name="Name" placeholder="Your Name..." pattern="[A-Za-z]+" required>
+					</div>
+					<div class="label-CA">
+						<label>EMAIL</label>
+						<input type="EMAIL" id="Email" name="Email" placeholder="Your Email..." pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+					</div>
+					<div class="label-CA">
+						<label>PHONE</label>
+						<input type="tel" id="Phone" name="Phone" placeholder="Phone Number..." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+					</div>
+					<div class="label-CA">
+						<label>PASSWORD</label>
+						<input type="PASSWORD" id="password" name="password" placeholder="Password..." pattern=".{8,}" required>
+					</div>	
+					<button class="Create-button" type="button" onclick="button_clicked3()">
+					Create Account
+				</button>	
+				<script type="text/javascript">
+					function button_clicked3(){
+						document.location.href="page3.html";
+					}
+				</script>		
+			</div>
+			<div class="Login">
+				<p class="p-lg">WELCOME</p>
+				<p class="p-lg2">LOGIN</p>
+				<div class="label-lg">
+						<label>EMAIL</label>
+						<input type="EMAIL" id="Email" name="Email" placeholder="Your Email..." pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+				</div>
+				<div class="label-lg">
+						<label>PASSWORD</label>
+						<input type="PASSWORD" id="password" name="password" placeholder="Password..." pattern=".{8,}" required>
+				</div>
+				<button class="Login-button" type="button" onclick="button_clicked4()">
+					Login
+				</button>
+				<script type="text/javascript">
+					function button_clicked4(){
+						document.location.href="page3.html";
+					}
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.d1-menu{
+	/*width: 500px;*/
+	height: 150px;
+	background-color: #33D5FF;
+	font-size: 35px;
+	padding-top: 20px;
+	padding-right: 40px;
+	
+}
+h1{
+	
+	color: whitesmoke;
+}
+.CA{
+	position: relative;
+	top: 100px;
+	left: 250px;
+	border-style: solid;
+	display: inline-block;
+	box-sizing: border-box;
+	border-width: 2px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 20px;
+	background-color: whitesmoke;
+}
+.label-CA{
+	margin-bottom: 15px;
+	background-color: whitesmoke;
+}
+label{
+	display: inline-block;
+	width: 125px;
+	background-color: whitesmoke;
+}
+.p-ca{
+	padding-left: 65px;
+	font-size: 20px;
+	font-weight: bolder;
+	background-color: whitesmoke;
+}
+.Create-button{
+	background-color: #33B3FF;
+	position: relative;
+	left: 100px;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #33D5FF;
+	font-weight: bold;
+
+}
+.Create-button:hover{
+	background-color: whitesmoke;
+	color: #33D5FF;
+}
+.container{
+	display:flex;
+	flex-direction: row;
+}
+
+.Login{
+	position: relative;
+	top: 100px;
+	left: 350px;
+	border-style: solid;
+	display: inline-block;
+	box-sizing: border-box;
+	border-width: 2px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 20px;
+	background-color: whitesmoke;
+}
+.label-lg{
+	margin-bottom: 20px;
+	background-color: whitesmoke;
+}
+.p-lg{
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: bolder;
+padding-left: 100px;
+background-color: whitesmoke;
+}
+.p-lg2{
+	padding-left: 130px;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	font-size: 15px;
+	background-color: whitesmoke;
+}
+.Login-button{
+	position: relative;
+	left: 125px;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #33D5FF;
+	font-weight: bold;
+}
+.Login-button:hover{
+	background-color: whitesmoke;
+	color: #33D5FF;
+}
+body{
+	background-color: #33B3FF;
+}

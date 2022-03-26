@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+			<title>
+				Welcome Page
+			</title>
+			<meta charset="utf-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<meta name="description" content="Car-Pool System">
+    		<link rel="stylesheet" type="text/css" href="page1.css" media="screen"/>
+    </head>
+    <body>
+
+			<div class="d1-menu" >
+				<h1>
+					Share-Ride
+				<button class="menu-button" type="button" onclick="button_clicked1()">
+					Publish Ride
+				</button>
+
+				<script type="text/javascript">
+					function button_clicked1(){
+						document.location.href="page2.html";
+					}
+				</script>
+
+
+				</h1>
+			</div>
+		<div class="main-body" >
+			<div class="d2">
+				<input type="text" class="feild" id="Pickup" name="Pickup" placeholder="From..." pattern="[A-Za-z]+">
+				<input type="text" class="feild" id="Destination" name="Destination" placeholder="To..." pattern="[A-Za-z]+">
+				<input type="text" class="feild" id="When" name="When" placeholder="When..." pattern="\d{1,2}/\d{1,2}/\d{4}">
+				<button type="button" class="search" onclick="button_clicked2()">
+					Search
+				</button>
+				<script type="text/javascript">
+					function button_clicked2(){
+						document.location.href="page4.html";
+					}
+				</script>
+			</div>
+			<div class="d3">
+				<div class="d3-1">	
+					
+				</div>
+				<div class="d3-2">
+					<img src="walk_icon.jpg" alt="walk-icon" width="150px" height="150px">
+				<p>
+					Share and Save<br>
+				
+					Share-Ride.... Clever Way to Travel!
+				</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+			<title>
+				Publish Ride
+			</title>
+			<meta charset="utf-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<meta name="description" content="Car-Pool System">
+    		<link rel="stylesheet" type="text/css" href="page3.css" media="screen"/>
+    </head>
+    <body>
+
+			<div class="d1-menu" >
+				<h1>
+					Share-Ride
+				</h1>
+			</div>
+			<div class="content">
+			<div class="ride">
+				<p class="msg">Start Saving - Share Details!</p>
+				<div class="Publish-ride">
+					<input type="text" id="From" name="Pickup" placeholder="From..." pattern="[A-Za-z]+"><br>
+					<input type="text" id="To" name="Destination" placeholder="To..." pattern="[A-Za-z]+"><br>
+					<input type="text" id="When" name="Date" placeholder="When..." pattern="\d{1,2}/\d{1,2}/\d{4}"><br>	
+						<button class="Publish-button"type="button" onclick="btn_click()">
+							Give Rides!
+						</button>
+						<script type="text/javascript">
+							function btn_click()
+							{
+							document.location.href="page6.html";
+					}
+				</script>
+				</div>
+				<img src="drive.png" alt="rider" >
+			</div>
+		</div>
+
+
+
+	</body>
+</html>
